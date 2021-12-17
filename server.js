@@ -8,9 +8,8 @@ app.use(express.json());
 const path=require('path')
 const pizzasRoute=require('./routes/pizzasRoute')
 const userRoute=require('./routes/userRoute')
-
 app.use('/api/pizzas', pizzasRoute)
-app.use('/api/users/', userRoute)
+app.use('/api/users', userRoute)
 
 
 if(process.env.NODE_ENV==='production')
