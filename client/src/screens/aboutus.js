@@ -35,7 +35,7 @@ export default function aboutus() {
                         <div class="card" >
                             <img class="card-img-top" src={muzammil}  height="250px" alt="Card image cap"/>
                                 <div class="card-body">
-                                    <h5 class="card-title">Muhammad Muzammil Hassan</h5>
+                                    <h5 class="card-title">Muzammil Hassan</h5>
                                     <p class="card-text">3762-FBAS/BSSE/F18-A</p>
                                      
                                 </div>
