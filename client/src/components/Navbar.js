@@ -30,7 +30,7 @@ export default function Navbar() {
 
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 
-                                    <li><a class="dropdown-item" href="#">Orders</a></li>
+                                    {/* <li><a class="dropdown-item" href="#">Orders</a></li> */}
                                     <li><a class="dropdown-item" href="#" onClick={()=>{dispatch(logoutUser())}}><li>Logout</li></a></li>
                                 </ul>
                             </div>
