@@ -24,7 +24,7 @@ export default function  aboutus() {
 
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mt-50">
                 <div className="col-md-4">
                 <img src={waqas} className="img-fluid" style={{ height: '200px', width: '200px' }} />
                  
@@ -38,7 +38,7 @@ export default function  aboutus() {
 
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mt-50">
                 <div className="col-md-4">
                 <img src={muzammil} className="img-fluid" style={{ height: '200px', width: '200px' }} />
                  
