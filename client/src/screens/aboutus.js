@@ -8,36 +8,36 @@ export default function aboutus() {
     return (
 
         <React.Fragment>
-            <h1>About Us</h1>
+            <h2>About Us</h2>
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
                         <div class="card">
-                            <img class="card-img-top" src={adnan} alt="Card image cap"/>
+                            <img class="card-img-top" src={adnan} height="200px" alt="Card image cap"/>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h5 class="card-title">Adnan Murtaza</h5>
+                                    <p class="card-text">3850-FBAS/BSSE/F18-A</p>
+                                    
                                 </div>
                         </div>
                     </div>
                     <div className="col-sm">
                         <div class="card"  >
-                            <img class="card-img-top" src={waqas} alt="Card image cap"/>
+                            <img class="card-img-top" src={waqas}  height="200px" alt="Card image cap"/>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h5 class="card-title">Waqas Mehmood</h5>
+                                    <p class="card-text">3854-FBAS/BSSE/F18-A</p>
+                                   
                                 </div>
                         </div>
                     </div>
                     <div className="col-sm">
                         <div class="card" >
-                            <img class="card-img-top" src={muzammil} alt="Card image cap"/>
+                            <img class="card-img-top" src={muzammil}  height="200px" alt="Card image cap"/>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h5 class="card-title">Muhammad Muzammil Hassan</h5>
+                                    <p class="card-text">3762-FBAS/BSSE/F18-A</p>
+                                     
                                 </div>
                         </div>
                     </div>
