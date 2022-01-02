@@ -1,7 +1,7 @@
 import React from "react";
-import waqas from "../Images/waqas(1)(1).png"
-import adnan from "../Images/adnan(1).png"
-import muzammil from "../Images/muzammil(1).png"
+import waqas from "../Images/waqas.png"
+import adnan from "../Images/adnan.png"
+import muzammil from "../Images/muzammil.png"
 export default function aboutus() {
 
 
