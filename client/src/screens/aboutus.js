@@ -2,63 +2,54 @@ import React from "react";
 import waqas from "../Images/waqas.png"
 import adnan from "../Images/adnan.png"
 import muzammil from "../Images/muzammil.png"
-export default function  aboutus() {
+export default function aboutus() {
 
 
-    return(
+    return (
 
-        <div class="container">
-    <div class="row">
-        <div class="col-lg-4">
-            <div class="card p-0">
-                <div class="card-image"> <img src={adnan} alt=""/> </div>
-                <div class="card-content d-flex flex-column align-items-center">
-                    <h4 class="pt-2">SomeOne Famous</h4>
-                    <h5>Creative Desinger</h5>
-                    <ul class="social-icons d-flex justify-content-center">
-                        <li style="--i:1"> <a href="#"> <span class="fab fa-facebook"></span> </a> </li>
-                        <li style="--i:2"> <a href="#"> <span class="fab fa-twitter"></span> </a> </li>
-                        <li style="--i:3"> <a href="#"> <span class="fab fa-instagram"></span> </a> </li>
-                    </ul>
+        <React.Fragment>
+            <h1>About Us</h1>
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm">
+                        <div class="card">
+                            <img class="card-img-top" src={adnan} alt="Card image cap"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div className="col-sm">
+                        <div class="card"  >
+                            <img class="card-img-top" src={waqas} alt="Card image cap"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div className="col-sm">
+                        <div class="card" >
+                            <img class="card-img-top" src={muzammil} alt="Card image cap"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="card p-0">
-                <div class="card-image"> <img src={waqas} alt=""/> </div>
-                <div class="card-content d-flex flex-column align-items-center">
-                    <h4 class="pt-2">SomeOne Famous</h4>
-                    <h5>Creative Desinger</h5>
-                    <ul class="social-icons d-flex justify-content-center">
-                        <li style="--i:1"> <a href="#"> <span class="fab fa-facebook"></span> </a> </li>
-                        <li style="--i:2"> <a href="#"> <span class="fab fa-twitter"></span> </a> </li>
-                        <li style="--i:3"> <a href="#"> <span class="fab fa-instagram"></span> </a> </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="card p-0">
-                <div class="card-image"> <img src={muzammil} alt=""/> </div>
-                <div class="card-content d-flex flex-column align-items-center">
-                    <h4 class="pt-2">SomeOne Famous</h4>
-                    <h5>Creative Desinger</h5>
-                    <ul class="social-icons d-flex justify-content-center">
-                        <li style="--i:1"> <a href="#"> <span class="fab fa-facebook"></span> </a> </li>
-                        <li style="--i:2"> <a href="#"> <span class="fab fa-twitter"></span> </a> </li>
-                        <li style="--i:3"> <a href="#"> <span class="fab fa-instagram"></span> </a> </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-   
+        </React.Fragment>
+
     )
 }
 
-     {/* // <div className="container  emp-profile">
+{/* // <div className="container  emp-profile">
         //     <form method="">
 
         //         <div className="row">
