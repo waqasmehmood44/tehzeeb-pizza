@@ -18,13 +18,40 @@ export default function  aboutus() {
                     <div className="col-md-6">
                         <div className="profile-head">
                             <h2>Adnan Murtaza</h2>
+                            <h3>3850-FBAS-BSSE-F-18-A</h3>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div className="row">
+                <div className="col-md-4">
+                <img src={waqas} className="img-fluid" style={{ height: '200px', width: '200px' }} />
+                 
+                </div>
+                    <div className="col-md-6">
+                        <div className="profile-head">
+                            <h2>Waqas Mehmood</h2>
                             <h3>3854-FBAS-BSSE-F-18-A</h3>
 
                         </div>
 
                     </div>
                 </div>
+                <div className="row">
+                <div className="col-md-4">
+                <img src={muzammil} className="img-fluid" style={{ height: '200px', width: '200px' }} />
+                 
+                </div>
+                    <div className="col-md-6">
+                        <div className="profile-head">
+                            <h2>Muhammad Muzammil Hassan</h2>
+                            <h3>3762-FBAS-BSSE-F-18-A</h3>
 
+                        </div>
+
+                    </div>
+                </div>
             </form>
 
 
