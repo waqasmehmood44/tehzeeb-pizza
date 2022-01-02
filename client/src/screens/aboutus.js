@@ -13,7 +13,7 @@ export default function aboutus() {
                 <div className="row">
                     <div className="col-sm">
                         <div class="card">
-                            <img class="card-img-top" src={adnan} height="300px" alt="Card image cap"/>
+                            <img class="card-img-top" src={adnan} height="250px" alt="Card image cap"/>
                                 <div class="card-body">
                                     <h5 class="card-title">Adnan Murtaza</h5>
                                     <p class="card-text">3850-FBAS/BSSE/F18-A</p>
@@ -23,7 +23,7 @@ export default function aboutus() {
                     </div>
                     <div className="col-sm">
                         <div class="card"  >
-                            <img class="card-img-top" src={waqas}  height="300px" alt="Card image cap"/>
+                            <img class="card-img-top" src={waqas}  height="250px" alt="Card image cap"/>
                                 <div class="card-body">
                                     <h5 class="card-title">Waqas Mehmood</h5>
                                     <p class="card-text">3854-FBAS/BSSE/F18-A</p>
@@ -33,7 +33,7 @@ export default function aboutus() {
                     </div>
                     <div className="col-sm">
                         <div class="card" >
-                            <img class="card-img-top" src={muzammil}  height="300px" alt="Card image cap"/>
+                            <img class="card-img-top" src={muzammil}  height="250px" alt="Card image cap"/>
                                 <div class="card-body">
                                     <h5 class="card-title">Muhammad Muzammil Hassan</h5>
                                     <p class="card-text">3762-FBAS/BSSE/F18-A</p>
