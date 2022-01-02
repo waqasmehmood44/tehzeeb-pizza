@@ -1,5 +1,9 @@
 const  mongoose  = require("mongoose");
 
+
+// var mongourl="mongodb+srv://waqas226:hHH5aPfFdVc2gdL@cluster0.adpto.mongodb.net/PROJECT?retryWrites=true&w=majority"
+
+
 var mongourl="mongodb+srv://waqas226:hHH5aPfFdVc2gdL@cluster0.adpto.mongodb.net/tehzeeb_pizza"
 mongoose.connect(mongourl,{useUnifiedTopology:true, useNewUrlParser:true})
 
