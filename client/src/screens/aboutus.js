@@ -12,10 +12,17 @@ export default function  aboutus() {
 
                 <div className="row">
                 <div className="col-md-4">
-                <img src={adnan} alt="adnan"/>
-
+                <img src={adnan} className="img-fluid" style={{ height: '200px', width: '200px' }} />
+                 
                 </div>
+                    <div className="col-md-6">
+                        <div className="profile-head">
+                            <h2>Adnan Murtaza</h2>
+                            <h3>3854-FBAS-BSSE-F-18-A</h3>
 
+                        </div>
+
+                    </div>
                 </div>
 
             </form>
